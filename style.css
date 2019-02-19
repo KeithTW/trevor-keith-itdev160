@@ -1,0 +1,17 @@
+body {
+    font-family: Arial,
+        sans-serif;
+    background-color: black;
+    color: darkgrey;
+}
+
+li {
+    color: darkgrey;
+}
+
+a:link {
+    color: darkcyan;
+}
+a:visited {
+    color: darkslategrey;
+}
