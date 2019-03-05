@@ -1,0 +1,97 @@
+body {
+    font-family: Arial,
+        Verdana,
+        sans-serif;
+    
+    background-color: black;
+    color: lightgray;
+    
+    padding: 1em 2em;
+    
+}
+
+main {
+    width: 80%;
+    max-width: 1200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: gray;
+    
+    border-radius: 25px 25px 20px 20px;
+    
+    box-shadow: 0 0 2000px 2px orangered;
+    
+}
+
+header {
+    height: 6em;
+    
+    background-color: #666;
+    color: lightgray;
+    
+    text-align: center;
+    
+    padding: 1em;
+    
+    border-radius: 20px 20px 0 0;
+    
+}
+
+img {
+    width: 250px;
+
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #444;
+    color: #cc3322;
+    
+    padding: .5em 2em;
+    
+    text-align: center;
+    
+}
+
+nav a:hover {
+    color: black;
+    
+}
+nav a:link {
+    color: red;
+    
+    text-decoration: none;
+    
+}
+nav a:visited {
+    color: darkorange;
+    
+}
+
+section {
+    background-color: #666;
+    
+    padding: 2em;
+    
+}
+
+footer {
+    padding: .5em 2em;
+    
+}
+
+.ReviewTitle {
+    font-size: 20px;
+
+    color: darkgray;
+
+}
+
+.ReviewText {
+    width: 50em;
+
+}
