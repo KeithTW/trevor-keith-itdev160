@@ -1,0 +1,186 @@
+/* Fluid Design Using Media Queries */
+
+/* Media Query for Mobile Layout */
+@media only screen and (max-width: 600px) {
+    body {
+        color: lightgray;
+        background-color: #333;
+        
+        font-family: 'Open Sans', arial, sans-serif;
+        
+    }
+    
+    main {
+        width: 100%;
+        
+    }
+    
+    header {
+        height: 6em;
+        
+    }
+    
+    nav {
+        width: 100%;
+        max-width: 1000px;
+
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: darkred;
+        overflow: hidden;
+
+    }
+
+    nav ul li {
+        float: left;
+
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: .3em 1.25em;
+
+    }
+
+    nav ul li a:hover {
+        background-color: darkgray;
+        color: darkcyan;
+
+    }
+    
+    section {
+        overflow: hidden;
+        
+    }
+    
+    section img {
+        width: 25%;
+        height: auto;
+        
+    }
+    
+    aside {
+        min-height: 5em;
+     
+        padding: 1em 0em;
+        
+    }
+     
+    article {
+        min-height: 5em;
+        
+        padding; 1em 0em;
+        
+    }
+    
+    footer {
+        background-color: darkslategrey;
+        
+        min-height: 5em;
+        
+        padding: 1em 2em;
+        
+    }
+    
+}
+
+/* Media Query for Desktop Layout */
+@media only screen and (min-width: 601px) {
+    body {
+        background-color: rgb(106, 54, 93);
+        
+    }
+    
+    main {
+        color: cornsilk;
+        
+        width: 90%;
+        max-width: 1000px;
+        
+        margin: 0 auto;
+        
+    }
+    
+    header {
+        background-color: darkred;
+        
+        height: 3em;
+        
+    }
+    
+    nav {
+        float: left;
+        left: 0;
+        top: 0;
+        width: 20%;
+
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 6em;
+        background-color: darkred;
+
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        padding: .25em;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+
+    nav ul li a:hover {
+        background-color: darkgray;
+        color: black;
+
+    }
+    
+    section {
+        overflow: hidden;
+        
+    }
+    
+    section img {
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    aside {
+        width: 40%;
+        
+        min-height: 8em;
+        
+        float: left;
+        
+    }
+    
+    article {
+        width: 60%;
+        
+        min-height; 8em;
+        
+        float: right;
+        
+    }
+    
+    footer {
+        clear: both;
+        
+        text-align: center;
+        
+    }
+    
+}
