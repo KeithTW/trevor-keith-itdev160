@@ -1,0 +1,66 @@
+body {
+    font-family: Arial,
+        Verdana,
+        sans-serif;
+    
+    background-color: black;
+    color: lightgray;
+    
+    padding: 1em 2em;
+    
+}
+
+main {
+    min-width: 60%;
+    max-width: 80%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: gray;
+    
+    border-radius: 25px 25px 20px 20px;
+    
+    box-shadow: 0 0 2000px 2px orangered;
+
+    text-align: center;
+
+    overflow: auto;
+    
+}
+
+section .message {
+    min-width: 55%;
+    max-width: 65%;
+
+    padding: .5em .5em;
+    border-radius: 10px;
+
+    overflow: auto;
+
+}
+
+section#inputs {
+    background-color: red;
+
+    padding: 2em;
+
+}
+
+section #in-message {
+    color: darkslategray;
+    background-color: whitesmoke;
+
+    text-align: left;
+    float: left;
+
+}
+
+section #out-message {
+    color: lightgray;
+    background-color: darkred;
+
+    text-align: right;
+    float: right;
+
+}
