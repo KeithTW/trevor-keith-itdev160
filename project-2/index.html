@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Project 2</title>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="Main page for Project 2">
+        <meta name="keywords" content="assignment, student, center, primary,  html, css, web styling">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="styles/styles.css">
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                <h1>Project 2</h1>
+                <h2>To-Do List</h2>
+
+            </header>
+
+            <main>
+                <section id="inputs">
+                    <input type="text" placeholder="Task to do" id="task-input">
+                    <input type="date" id="date-input">
+                    <button type="submit" id="add-button" onclick=AddTask()>Add Task</button>
+
+                </section>
+
+                <section class="tasks-container" id="tasks">
+
+                </section>
+
+            </main>
+            
+        </main>
+        
+        <script src="scripts/scripts.js"></script>
+
+    </body>
+    
+</html>

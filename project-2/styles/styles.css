@@ -1,0 +1,59 @@
+body {
+    font-family: Arial,
+        Verdana,
+        sans-serif;
+    
+    background-color: black;
+    color: lightgray;
+    
+    padding: 5% 10%;
+
+    max-width: 80%;
+    
+}
+
+main {
+    min-width: 60%;
+    max-width: 80%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: gray;
+    
+    border-radius: 25px 25px 20px 20px;
+    
+    box-shadow: 0 0 2000px 2px orangered;
+
+    text-align: center;
+
+    overflow: auto;
+    
+}
+
+section#inputs {
+    background-color: red;
+
+    padding: 5%;
+
+}
+
+section .tasks-outer {
+    width: 60%;
+
+    display: inline-block;
+
+    word-wrap: break-word;
+
+    border-radius: 15%;
+
+    text-align: center;
+
+    background-color: darkred;
+
+}
+
+section .tasks {
+    padding: .25% 4% 0 4%;
+
+}
