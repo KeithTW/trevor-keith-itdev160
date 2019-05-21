@@ -1,7 +1,7 @@
 
 titleText = "Click a square to play a tone";
 subTitleText = "Use the slider to adjust the volume";
-tunes = ["bga", "eab", "bba"];
+tunes = ["bga", "eab", "bba", "eeg", "aaa", "eba", "gga", "gba"];
 
 $mainTitle = $("#mainTitle");
 $subTitle = $("#subTitle");
@@ -48,14 +48,14 @@ slider.oninput = function() {
         $volumeIndicator.text("MAXED");
 
     } else {
-        $volumeIndicator.text(getVolume());
+        $volumeIndicator.text(getVolume() * 100);
 
     }
 
 }
 
 $(document).ready( function() {
-    $volumeIndicator.text(getVolume());
+    $volumeIndicator.text(getVolume() * 100);
 
     $mainTitle.text(titleText);
     $subTitle.text(subTitleText);
