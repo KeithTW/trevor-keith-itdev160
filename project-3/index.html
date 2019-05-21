@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Project 3</title>
+        <meta charset="utf-8">
+
+        <!-- Stuff for Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+        <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link href="/css/styles.css" media="screen" rel="stylesheet" type="text/css"/>
+
+    </head>
+
+    <body>
+        <header>
+            <h1 id="mainTitle"></h1>
+            <h2 id="subTitle"></h2>
+
+        </header>
+        
+        <audio id="cAudio">
+            <source src="audio/c_note.mp3" type="audio/mpeg"></source>
+            <source src="audio/c_note.ogg" type="audio/ogg"></source>
+            <source src="audio/c_note.wav" type="audio/wav"></source>   
+
+        </audio>
+
+        <audio id="dAudio">
+            <source src="audio/d_note.mp3" type="audio/mpeg"></source>
+            <source src="audio/d_note.ogg" type="audio/ogg"></source>
+            <source src="audio/d_note.wav" type="audio/wav"></source>   
+
+        </audio> 
+
+        <audio id="eAudio">
+            <source src="audio/e_note.mp3" type="audio/mpeg"></source>
+            <source src="audio/e_note.ogg" type="audio/ogg"></source>
+            <source src="audio/e_note.wav" type="audio/wav"></source>   
+
+        </audio>
+
+        <audio id="fAudio">
+            <source src="audio/f_note.mp3" type="audio/mpeg"></source>
+            <source src="audio/f_note.ogg" type="audio/ogg"></source>
+            <source src="audio/f_note.wav" type="audio/wav"></source>   
+
+        </audio>
+        
+        <audio id="gAudio">
+            <source src="audio/g_note.mp3" type="audio/mpeg"></source>
+            <source src="audio/g_note.ogg" type="audio/ogg"></source>
+            <source src="audio/g_note.wav" type="audio/wav"></source>   
+
+        </audio>
+
+        <audio id="aAudio">
+            <source src="audio/a_note.mp3" type="audio/mpeg"></source>
+            <source src="audio/a_note.ogg" type="audio/ogg"></source>
+            <source src="audio/a_note.wav" type="audio/wav"></source>   
+
+        </audio>
+
+        <audio id="bAudio">
+            <source src="audio/b_note.mp3" type="audio/mpeg"></source>
+            <source src="audio/b_note.ogg" type="audio/ogg"></source>
+            <source src="audio/b_note.wav" type="audio/wav"></source>   
+
+        </audio>
+
+        <div id="volume">
+            <input type="range" min="0" max="100" value="80" class="slider" id="volumeSlider">
+            <h3 id="volumeValue"></h3>
+
+        </div>
+
+        <div id= "instrument">   
+            <div id="c" class="box"></div>        
+            <div id="d" class="box"></div>
+            <div id="e" class="box"></div>
+            <div id="f" class="box"></div>
+            <div id="g" class="box"></div>
+            <div id="a" class="box"></div>
+            <div id="b" class="box"></div>
+
+            <div id="tune" class="box"></div>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/js/javascript.js"></script>
+
+    </body>
+    
+</html>

@@ -1,0 +1,212 @@
+header {
+    text-align: center;
+
+    color: orangered;
+    background-color: darkred;
+
+    width: 30%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+
+    font-family: "Open Sans", sans-serif;
+
+}
+
+body {
+    background-color: black;
+
+}
+
+#volume {
+    text-align: center;
+
+}
+
+#volumeSlider {
+    height: 100%;
+    width: 5%;
+
+    -webkit-appearance: slider-vertical;
+
+    /* Couldn't figure out how to make the slider look decent, so I eventually gave up */
+
+}
+
+#volumeValue {
+    width: 100%;
+
+    color: white;
+
+}
+
+#instrument {
+    height: 116px;
+    width: 928px;
+
+    padding-right: 10px;
+    padding-top: 50px;
+
+    margin: auto;
+
+    position: absolute;
+
+    top: 0; left: 0; bottom: 0; right: 0;
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+
+    margin-left: 10px;
+    margin-top: 10px;
+
+    float: left;
+
+}
+
+.box:hover {
+    cursor: pointer;
+
+}
+
+
+#c {
+    background-color: #3e181b;
+    border: 3px solid #db1d2d;
+    
+}
+
+#c:hover {
+    background-color: #661920;
+
+}
+
+#c:active {
+    background-color: #db1d2d;   
+
+}
+
+
+#d {
+    background-color: #422018;
+    border: 3px solid #f0421c;
+
+}
+
+#d:hover {
+    background-color: #6e2819;
+
+}
+
+#d:active {
+    background-color: #f0421c;
+
+}
+
+
+#e {
+    background-color: #45391b;
+    border: 3px solid #fec02d;
+
+}
+
+#e:hover {
+    background-color: #735b20;
+
+}
+
+#e:active {
+    background-color: #fec02d;
+
+}
+
+
+#f {
+    background-color: #193c29;
+    border: 3px solid #20d071;
+
+}
+
+#f:hover {
+    background-color: #1b613b;
+
+}
+
+#f:active {
+    background-color: #20d071;
+
+}
+
+
+#g {
+    background-color: #18323e;
+    border: 3px solid #1a9ddb;
+
+}
+
+#g:hover {
+    background-color: #184d65;
+
+}
+
+#g:active {
+    background-color: #1a9ddb;
+
+}
+
+
+#a {
+    background-color: #331f35;
+    border: 3px solid #a13fad;
+
+} 
+
+#a:hover {
+    background-color: #4e2753;
+
+}
+
+#a:active {
+    background-color: #a13fad;
+
+}
+
+
+#b {
+    background-color: #43293d;
+    border: 3px solid #f26fd4;
+
+}
+
+#b:hover {
+    background-color: #6f3a62;
+
+}
+
+#b:active {
+    background-color: #f26fd4;
+
+}
+
+#tune {
+    background-color: #3e181b;
+    border: 3px solid #db1d2d;
+    
+}
+
+#tune:hover {
+    background-color: #661920;
+
+}
+
+#tune:active {
+    background-color: #db1d2d;   
+
+}
+
+/* TODO: Create a CSS sheet for when the page gets too skinny */
